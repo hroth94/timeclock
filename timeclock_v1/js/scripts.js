@@ -1,5 +1,6 @@
 $(document).ready(() => {
 
+
   /*
   * Function to pad single digit times
   */
