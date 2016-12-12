@@ -22,7 +22,7 @@ $(document).ready(() => {
     var timePic =  (now.getHours() < 17) ? "fa-sun-o" : "fa-moon-o";
 
     // Seperate date and time with new line
-    document.getElementById('current-date').innerHTML = [date, "<i class='fa " + timePic + "' aria-hidden='true'>" + "  " + time].join("<br>");
+    document.getElementById('current-date').innerHTML = [date, "<i class='fa " + timePic + "' aria-hidden='true'></i>" + "  " + time].join("<br>");
 
     // Update clock every 1000 ms
     setTimeout(showCurrentTime, 1000);

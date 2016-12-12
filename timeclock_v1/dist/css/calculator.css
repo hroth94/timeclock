@@ -6,11 +6,6 @@
 	-webkit-box-sizing: border-box;
 }
 
-*:before, *:after {
-	display: table-cell;
-	content: '';
-}
-
 *:after{
 	clear: both;
 }
