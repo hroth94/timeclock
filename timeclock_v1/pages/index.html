@@ -147,7 +147,8 @@
 
 			 <!-- /.row  Info Row-->
 			<div class="col-lg-6 col-lg-offset-3" style="padding-bottom:15px">
-				<div class="row">
+        <div class="row">
+          <p class="text-center huge" id="current-date"></p>
 					<p class="text-center">Last clock out <b>Monday, 21 November 2016</b> at <b>2:37 pm</b></p>
 					<p class="text-center">Clocked out for <b>1d 4hr 23m</b></p>
 				</div>
@@ -160,10 +161,10 @@
 				</button>
 				<div class="row">
 				<div class="col-lg-6 col-lg-offset-3" style="padding-bottom:15px">
-					<button type="button" class="btn btn-danger" style="width:100%">
+					<button type="button" class="btn btn-danger forgot-punch" style="width:100%">
 					  <div class="small">
 						   <i class="fa-exclamation-circle fa" aria-hidden="true"></i>
-						   I forgot to clock out
+						   I forgot to clock in!
 					  </div>
 					</button>
 				</div>
@@ -250,8 +251,6 @@
 
     <!-- Morris Charts JavaScript -->
     <script src="../vendor/raphael/raphael.min.js"></script>
-    <script src="../vendor/morrisjs/morris.min.js"></script>
-    <script src="../data/morris-data.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="../dist/js/sb-admin-2.js"></script>
